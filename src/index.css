@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto+Slab:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/*
+  Identidad de marca Kårma
+  - Arena  #cbbba0 → escala neutra (stone)
+  - Café   #936037 → color de acento (amber)
+  - Negro  #000000 → texto y fondos oscuros
+  Tipografías: TAN-MON CHERI (logo), Roboto Slab (texto).
+  TAN-MON CHERI se usa si está instalada en el equipo; si no, Italiana (Google Fonts).
+*/
+@theme {
+  --font-sans: "Roboto Slab", ui-serif, Georgia, serif;
+  --font-serif: "TAN - MON CHERI", "Tan Mon Cheri", "TAN-MON CHERI", "Italiana", ui-serif, Georgia, serif;
+  --font-display: "TAN - MON CHERI", "Tan Mon Cheri", "TAN-MON CHERI", "Italiana", ui-serif, Georgia, serif;
+
+  /* Acento café (#936037 = 500) */
+  --color-amber-50: #fbf7f2;
+  --color-amber-100: #f4ebdf;
+  --color-amber-200: #e8d8c3;
+  --color-amber-300: #d8bf9f;
+  --color-amber-400: #b98d65;
+  --color-amber-500: #936037;
+  --color-amber-600: #7d5130;
+  --color-amber-700: #664228;
+  --color-amber-800: #4f3320;
+  --color-amber-900: #3a2618;
+  --color-amber-950: #22160e;
+
+  /* Neutros cálidos derivados del arena (#cbbba0 ≈ 300) hasta el negro */
+  --color-stone-50: #faf8f4;
+  --color-stone-100: #f3efe7;
+  --color-stone-200: #e7dfd0;
+  --color-stone-300: #cbbba0;
+  --color-stone-400: #ab9c83;
+  --color-stone-500: #7a6f5c;
+  --color-stone-600: #5f5647;
+  --color-stone-700: #463f34;
+  --color-stone-800: #2b2620;
+  --color-stone-900: #171410;
+  --color-stone-950: #000000;
+}

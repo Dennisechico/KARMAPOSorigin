@@ -1,0 +1,6 @@
+{
+  "name": "Karma Accesorios Buena Vibra POS & Omnicanal",
+  "description": "Sistema de Punto de Venta Omnicanal, Gestión de Inventario para Joyería Artesanal, Control RBAC, Manufactura con Algoritmo de Urgencias y Sincronización Shopify.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
